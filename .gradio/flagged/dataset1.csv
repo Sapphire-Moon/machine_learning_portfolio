@@ -1,0 +1,3 @@
+Gender,Age,Address,Family size,Parent Status,Mother's Edu,Father's Edu,Mother's Job,Father's Job,output,timestamp
+M,18,Urban,GT3,Together,3,4,At_home,services,,2026-03-05 22:29:19.527911
+M,18,Urban,GT3,Together,3,4,At_home,services,,2026-03-05 22:29:30.367527
