@@ -1,0 +1,43 @@
+{
+  "categorical_features": [
+    "Source",
+    "Day_Name"
+  ],
+  "numeric_features": [
+    "Start_Hour",
+    "Day_of_Year",
+    "Year",
+    "Production_Lag_1",
+    "Production_Lag_24",
+    "Production_Lag_168"
+  ],
+  "all_features_in_order": [
+    "Source",
+    "Day_Name",
+    "Start_Hour",
+    "Day_of_Year",
+    "Year",
+    "Production_Lag_1",
+    "Production_Lag_24",
+    "Production_Lag_168"
+  ],
+  "target": "Production",
+  "valid_sources": [
+    "Solar",
+    "Wind"
+  ],
+  "valid_day_names": [
+    "Friday",
+    "Monday",
+    "Saturday",
+    "Sunday",
+    "Thursday",
+    "Tuesday",
+    "Wednesday"
+  ],
+  "test_set_metrics": {
+    "mae": 602.157629804189,
+    "rmse": 1051.1752467109895,
+    "r2": 0.936289704878922
+  }
+}
